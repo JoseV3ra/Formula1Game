@@ -47,8 +47,9 @@ public class Race {
             System.out.printf("%d. %s - %.2f seconds%s\n", 
                 (i + 1), 
                 result.driver.toString(), 
-                result.time,
-                result.driver.isPlayer()? " ***** " : " " );
+                result.time,                
+                result.driver.isPlayer()? " \uD83C\uDFC1 " : " " ); // ? and : is a shorcut for an if-else statement. ? means "if true", and : means "else" also used unicode for the car emoji
+
         }
     }
     
