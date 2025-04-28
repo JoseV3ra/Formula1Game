@@ -48,7 +48,7 @@ public class Race {
                 (i + 1), 
                 result.driver.toString(), 
                 result.time,
-                result.driver.isPlayer() ? " ★" : "");
+                result.driver.isPlayer()? " ***** " : " " );
         }
     }
     

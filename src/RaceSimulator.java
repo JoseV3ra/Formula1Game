@@ -55,7 +55,7 @@ public class RaceSimulator {
         // Create player driver
         Driver playerDriver = new Driver(playerName, playerCar, true);
         
-        // Create AI drivers
+        // Create drivers
         List<Driver> allDrivers = new ArrayList<>();
         allDrivers.add(playerDriver);
         allDrivers.add(new Driver("Lewis Hamilton", new Mercedes(), false));

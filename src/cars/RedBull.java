@@ -3,7 +3,7 @@ package cars;
 public class RedBull extends Car {
     // Constructor
     public RedBull() {
-        super("Red Bull", 240, 99);
+        super("Red Bull", 240, 90);
     }
     
     // Implementation of abstract method (polymorphism)

@@ -44,7 +44,7 @@ public int getHandling() {
          lapTime += 5; // +5 seconds
      }
      
-     // Apply team bonus
+     // Apply team bonus (this is the team strats, pit crew efficiency, engineering excellence)
      lapTime *= getTeamBonus();
      
      // Add random factor (-2 to +2 seconds)
